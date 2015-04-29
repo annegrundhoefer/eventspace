@@ -1,0 +1,219 @@
+/*
+  Theme Name: Event Space
+  Theme URI: 
+  Description:
+  Version: 1.0
+  Author: Anne Grundhoefer (@annegrundhoefer)
+  Author URI: http://belfortagency.com
+  Tags: Blank, HTML5, CSS3
+
+  License: MIT
+  License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+* {
+  font-family: "proxima-nova", sans-serif;
+}
+html body img {
+  max-width: 100%;
+}
+html body .btn-primary {
+  margin: 10px auto;
+  color: #c25642;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #fff;
+  border: 1px solid #c25642;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+html body .btn-primary:hover {
+  background-color: #c25642;
+  color: #fff;
+  border-color: #fff;
+}
+html body .btn-primary.red {
+  background: #c25642;
+  border-color: #fff;
+  color: #fff;
+}
+html body .btn-primary.red:hover {
+  background: #fff;
+  color: #c25642;
+  border-color: #c25642;
+}
+html body .space-me {
+  padding: 60px 0px;
+}
+body {
+  background: #fff;
+}
+body .space-me {
+  padding: 60px 0px;
+}
+header {
+  background: #fff;
+  height: 120px;
+  position: scroll;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+}
+header .logo {
+  padding: 20px 0px;
+}
+header .logo img {
+  width: 100%;
+}
+header .menu ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+header .menu ul li {
+  display: inline-block;
+  padding: 50px 20px;
+}
+header .menu ul li a {
+  color: #333333;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+}
+header .menu ul li:hover a {
+  color: #c25642;
+  text-decoration: none;
+}
+header .menu ul li:last-child a {
+  background: #c25642;
+  padding: 8px 15px;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+header .menu ul li:last-child a:hover {
+  background: #333333;
+}
+#mastHead {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  min-height: 800px;
+  background: url('<?php bloginfo('template_url'); ?>/img/masthead.png') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-backrgound-size: cover;
+  position: relative;
+}
+#mastHead img {
+  width: 100%;
+}
+.tagline h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin: 20px auto;
+  padding-top: 60px;
+}
+.tagline p {
+  font-size: 20px;
+}
+#height {
+  padding: 12.5vh 0px;
+}
+#orangeHeight {
+  background-color: #c25642;
+  padding: 12.5vh 0px;
+}
+#orangeHeight .shutters h3 {
+  color: #fff;
+}
+#orangeHeight .shutters p {
+  color: #fff;
+}
+.brands {
+  margin-top: 100px;
+}
+.brands-logos li {
+  display: inline-block;
+  margin: 22px;
+}
+.single-feedback {
+  position: relative;
+}
+.single-feedback .client-pic {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  position: relative;
+  margin-bottom: -24px;
+  z-index: 999;
+}
+.single-feedback .client-pic img {
+  max-width: 100%;
+  border: 5px solid #fff;
+}
+.single-feedback .box {
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 3px;
+  position: relative;
+  background: #f7f8fa;
+  padding-top: 20px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+  box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+}
+.single-feedback .box p {
+  padding: 25px;
+  font-style: italic;
+  color: #333333;
+}
+.single-feedback .client-info {
+  margin-top: 30px;
+}
+.single-feedback .client-info .client-name {
+  line-height: 20px;
+  text-align: center;
+  color: #c25642;
+  font-weight: 700;
+}
+.single-feedback .client-info .company {
+  text-align: center;
+  color: #333333;
+}
+.choose {
+  margin-top: 100px;
+}
+.choose h2 {
+  margin-bottom: 30px;
+}
+.choose p {
+  margin-bottom: 30px;
+}
+.choose img {
+  width: 25%;
+  float: right;
+}
+.ram-img {
+  margin-top: 100px;
+}
+footer {
+  background: #333333;
+}
+footer ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+footer ul li a {
+  color: #c8c8c8;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer ul li:hover a {
+  color: #c25642;
+  text-decoration: none;
+}
