@@ -22,13 +22,13 @@ register_post_type( 'audience',
         'show_ui'               => true,
         'show_in_menu'          => true,
         'query_var'             => true,
-        'rewrite'               => false,
+        'rewrite'               => true,
         'capability_type'       => 'post',
         'has_archive'           => true,
         'hierarchical'          => false,
         'menu_position'         => null,
         'menu_icon'             => 'dashicons-admin-users',
-        'supports'              => array( 'title', 'page-attributes' )
+        'supports'              => array( 'title','content','thumbnail' )
     )
 );
 
@@ -54,13 +54,13 @@ register_post_type( 'packages',
         'show_ui'               => true,
         'show_in_menu'          => true,
         'query_var'             => true,
-        'rewrite'               => false,
+        'rewrite'               => true,
         'capability_type'       => 'post',
         'has_archive'           => true,
         'hierarchical'          => false,
         'menu_position'         => null,
         'menu_icon'             => 'dashicons-cart',
-        'supports'              => array( 'title', 'page-attributes' )
+        'supports'              => array( 'title', 'content', 'thumbnail' )
     )
 );
 
@@ -86,13 +86,13 @@ register_post_type( 'past_events',
         'show_ui'               => true,
         'show_in_menu'          => true,
         'query_var'             => true,
-        'rewrite'               => false,
+        'rewrite'               => true,
         'capability_type'       => 'post',
         'has_archive'           => true,
         'hierarchical'          => false,
         'menu_position'         => null,
         'menu_icon'             => 'dashicons-calendar-alt',
-        'supports'              => array( 'title', 'page-attributes' )
+        'supports'              => array( 'title', 'content','thumbnail' )
     )
 );
 
@@ -124,7 +124,7 @@ register_post_type( 'sponsors',
         'hierarchical'          => false,
         'menu_position'         => null,
         'menu_icon'             => 'dashicons-awards',
-        'supports'              => array( 'title', 'page-attributes' )
+        'supports'              => array( 'title', 'post-attributes' )
     )
 );
 
