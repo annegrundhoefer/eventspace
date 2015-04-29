@@ -2,7 +2,7 @@
 
 <section id="mastHead"> 
 	<div class="mast">
-		<h3><a href="#">8TH FLOOR 211 N ERVAY ST <br>
+		<h3><a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534" target="_blank">8TH FLOOR 211 N ERVAY ST <br>
 			DALLAS TX 75201</a></h3>
 		<h1> #eventSpace</h1>
 		<h2>ALL YOU HAVE TO DO IS SHOW UP.</h2>
@@ -14,7 +14,7 @@
 
 <section id="featuresList">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
 			<h2>Features</h2>
 			<div class="center">
 			<ul>
@@ -29,7 +29,7 @@
 			</ul>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
 			<h2>Services</h2>
 			<div class="center">
 			<ul>
@@ -132,8 +132,6 @@
 			<h2><a href="#">Product Showcase</a></h2>
 		</div>
 	</div>
-</div>
-<div class="row">
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
 			<img src="http://placehold.it/500x300">
 		<div class="title">
@@ -151,7 +149,8 @@
 			<h2><a href="#">Your Event</a></h2>
 		</div>
 	</div>
-</div>
+	</div>
+
 
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
@@ -178,48 +177,52 @@
 <section id="clients">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="https://www.atlassian.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/atlassian.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="https://coalitionforanewdallas.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/coalition.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="https://www.cyberdust.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/cyber.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="http://dallas.startupweek.co/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/startup.png"></a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="http://www.dart.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dart.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="http://www3.hilton.com/en/index.html" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/hilton.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="http://launchdfw.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/launch.png"></a>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img src="http://placehold.it/200x100">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+				<a href="http://www.mvpindex.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/mvp1.png"></a>
 			</div>
 		</div>
 	</div>
 </section>
 
-
+<section id="featuresList">
 <div class="row">
 	<div class="col-sm-12 col-md-8 map">
 		<a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534"><img src="<?php bloginfo('template_url'); ?>/img/map1.png"></a>
 	</div>
-	<div class="col-sm-12 col-md-offset-1 col-md-3 contact">
+	<div class="col-sm-6 col-md-offset-1 col-md-3 contact">
 		<h3>Location</h3>
-			<h4><a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534">211 N.Ervay St.<br> 8th Floor<br> Dallas, TX 75201</a></h4>
+			<h4><a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534" target="_blank">211 N.Ervay St.<br> 8th Floor<br> Dallas, TX 75201</a></h4>
+		</div>
+		<div class="col-sm-6 col-md-offset-1 col-md-3 contact">
 		<h3>Contact</h3>
-			<h4><a href="#">email@fortwork.com</a></h4>
-			<h4><a href="#">123.1234.12345</a></h4>
-	</div>
+			<h4>Abby Coben</h4>
+			<h4><a href="mailto:abby@dallasfortwork.com">abby@dallasfortwork.com</a></h4>
+			<h4><a href="tel:+12144481015">214.448.1015</a></h4>
+			</div>
+		
 </div>
 
 
@@ -250,7 +253,7 @@
    					</div>
    					<div class="form-group col-md-12">
       					<label for="message">Message</label>
-      					<textarea class="form-control" rows="7" name="message"></textarea>
+      					<textarea class="form-control" rows="3" name="message"></textarea>
       					<?php echo "<p class='text-danger'>$errMessage</p>";?>
    					</div>
    					<div class="button-container col-md-12 text-center">
@@ -262,6 +265,7 @@
 	</div>
 </div>
 
+</section>
 
 </body>
 </html>
