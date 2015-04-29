@@ -58,53 +58,48 @@
 </div>
 
 
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icon">
-			<img src="<?php bloginfo('template_url'); ?>/img/build.png">
+<?php 
+
+/*********************************************/
+/*         
+	Audience Panels
+*/
+/*********************************************/
+
+$args = array(
+	'post_type' => 'audience'
+);
+
+$panels = new WP_Query($args);
+
+
+$count = 1;
+if ($panels->have_posts()) {
+	while ($panels->have_posts()) {
+		$panels->the_post(); 
+		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+		$post_id = get_the_ID();
+		?>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icon">
+					<img src="<?php echo $url ?>">
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 benefits">
+					<h4>No. <?php echo $count; ?></h4>
+					<h3><?php echo get_the_title(); ?></h3>
+					<?php echo get_field('content',$post_id); ?>
+					<a href="<?php echo get_the_permalink(); ?>"><div class="btn btn-primary"><?php echo get_field('cta_text',$post_id); ?></div></a>
+				</div>
+			</div>
 		</div>
-		
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 benefits">
-			<h4>No. 1</h4>
-			<h3> Build</h3>
-			<p>#eventSpace will help you build an audience from scratch.</p> 
-			<p>If you already have an audience, we can expand it. We embrace all forms of social media and guerilla marketing to get the word out in addition to leveraging our vibrant downtown community.</p>
-			<p>Whether it’s the coworking community of Fort Work on the floor above #eventSpace or the retail businesses Downtown, we use equal parts digital advertising and word of mouth to promote your event. </p>
-			<div class="btn btn-primary">View Services</div>
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icon">
-			<img src="<?php bloginfo('template_url'); ?>/img/engage.png">
-		</div>
-		
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 benefits">
-			<h4>No. 2</h4>
-			<h3> Engage</h3>
-			<p>The event isn’t just about the attendees, #eventSpace is all about visibility of your event on social media. Heck, it’s even in the name.</p> 
-			<p>When we work with you to plan your event, the first thing we consider is creating share-worthy experiences and then creating posters and placards to educate your guests on how to share in the most visible way possible.</p>
-			<p>We’ll also guarantee attendance to the event and offer an influencer package where we invite influential people on social media to attend and share your event while it’s happening!</p>
-			<div class="btn btn-primary">View Services</div>
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icon">
-			<img src="<?php bloginfo('template_url'); ?>/img/retain.png">
-		</div>
-		
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 benefits">
-			<h4>No. 3</h4>
-			<h3> Retain</h3>
-			<p>Your audience doesn’t have to disappear when your event ends. </p> 
-			<p>From the moment your guests enter your event, our friendly staff will greet and welcome them to #eventSpace. We’ll also make sure to grab their email when they check-in so you can re-engage them through thank you notes and invitations to the next event.</p>
-			<div class="btn btn-primary">View Services</div>
-		</div>
-	</div>
-</div>
+		<?php $count++; ?>
+	<?php }
+}
+
+?>
 
 
 <div class="row">
@@ -114,42 +109,36 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
+
+<?php 
+
+/*********************************************/
+/*         
+	Packages
+*/
+/*********************************************/
+
+$args = array(
+	'post_type' => 'packages'
+);
+
+$packages = new WP_Query($args);
+
+if ($packages->have_posts()) {
+	while ($packages->have_posts()) {
+		$packages->the_post(); 
+		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
 			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Corporate Event</a></h2>
+			<div class="title">
+				<h2><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+			</div>
 		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Launch Party</a></h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Product Showcase</a></h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Happy Hour</a></h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Art Gallery</a></h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 single-package">
-		<div class="black">
-			<h2><a href="#">Your Event</a></h2>
-		</div>
-	</div>
-	</div>
+
+	<?php }
+}
+?>
 
 
 <div class="row">
@@ -160,49 +149,77 @@
 
 
 <div class="row">
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Corporate Event</a></h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 single-package">
-			<img src="http://placehold.it/500x300">
-		<div class="title">
-			<h2><a href="#">Launch Party</a></h2>
-		</div>
-	</div>
+	<?php 
+
+	/*********************************************/
+	/*         
+		Past Events
+	*/
+	/*********************************************/
+
+	$args = array(
+		'post_type' => 'past_events'
+	);
+
+	$events = new WP_Query($args);
+
+	if ($events->have_posts()) {
+		while ($events->have_posts()) {
+			$events->the_post(); 
+			$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+			
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 single-package">
+						<img src="http://placehold.it/500x300">
+					<div class="title">
+						<h2><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+					</div>
+				</div>
+
+			<?php } 
+
+		}
+	?>
 </div>
 
 <section id="clients">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="https://www.atlassian.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/atlassian.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="https://coalitionforanewdallas.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/coalition.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="https://www.cyberdust.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/cyber.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="http://dallas.startupweek.co/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/startup.png"></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="http://www.dart.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dart.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="http://www3.hilton.com/en/index.html" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/hilton.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="http://launchdfw.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/launch.png"></a>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
-				<a href="http://www.mvpindex.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/mvp1.png"></a>
-			</div>
+			<?php 
+
+			/*********************************************/
+			/*         
+				Past Events
+			*/
+			/*********************************************/
+
+			$args = array(
+				'post_type' => 'sponsors'
+			);
+
+			$events = new WP_Query($args);
+
+			$count = 1;
+			if ($events->have_posts()) {
+				while ($events->have_posts()) {
+					$events->the_post(); 
+					$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); $post_id = get_the_ID(); 
+
+					?>
+					
+					<?php if ($count == 5) { ?>
+						</div>
+					<?php } ?>
+
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+						<a href="<?php echo get_field('sponsor_url',$post_id) ?>" target="_blank"><img src="<?php echo get_field('logo',$post_id); ?>"></a>
+					</div>
+
+					<?php if ($count == 5) { ?>
+						<div class="row">
+					<?php } ?>
+				<?php $count++; }
+
+			} ?>
 		</div>
 	</div>
 </section>
