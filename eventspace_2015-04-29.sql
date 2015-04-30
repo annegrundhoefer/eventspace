@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.20)
 # Database: eventspace
-# Generation Time: 2015-04-29 21:19:56 +0000
+# Generation Time: 2015-04-30 04:56:05 +0000
 # ************************************************************
 
 
@@ -217,7 +217,7 @@ VALUES
 	(94,'widget_meta','a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}','yes'),
 	(95,'sidebars_widgets','a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:13:\"widget-area-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:13:\"widget-area-2\";N;s:13:\"array_version\";i:3;}','yes'),
 	(97,'cron','a:5:{i:1430339033;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1430345260;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1430345271;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1430378940;a:1:{s:20:\"wp_maybe_auto_update\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}','yes'),
-	(99,'_transient_random_seed','a413c514a06cfb1a5e762a5c4e87539e','yes'),
+	(99,'_transient_random_seed','fde1df7d9cec2594f9696af804a4150e','yes'),
 	(100,'nonce_key','0z(K62qXFS5j^Jcid2BQ_[+Y=HFB^W*A/9q^eN}4I(wRl!zk!9[S$O+79W{5io+F','yes'),
 	(101,'nonce_salt','o>wgq#T,N57Y4#+(U5[x8]+RI5>BlOq$;c@Z&2w>JN7xlV_i!H<#txUr,ZAS%u#D','yes'),
 	(109,'_site_transient_update_themes','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1430340759;s:7:\"checked\";a:1:{s:10:\"eventspace\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}','yes'),
@@ -257,7 +257,7 @@ VALUES
 	(188,'_site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a','1430349535','yes'),
 	(189,'_site_transient_poptags_40cd750bba9870f18aada2478b24840a','a:40:{s:6:\"widget\";a:3:{s:4:\"name\";s:6:\"widget\";s:4:\"slug\";s:6:\"widget\";s:5:\"count\";s:4:\"5152\";}s:4:\"post\";a:3:{s:4:\"name\";s:4:\"Post\";s:4:\"slug\";s:4:\"post\";s:5:\"count\";s:4:\"3225\";}s:6:\"plugin\";a:3:{s:4:\"name\";s:6:\"plugin\";s:4:\"slug\";s:6:\"plugin\";s:5:\"count\";s:4:\"3156\";}s:5:\"admin\";a:3:{s:4:\"name\";s:5:\"admin\";s:4:\"slug\";s:5:\"admin\";s:5:\"count\";s:4:\"2683\";}s:5:\"posts\";a:3:{s:4:\"name\";s:5:\"posts\";s:4:\"slug\";s:5:\"posts\";s:5:\"count\";s:4:\"2467\";}s:7:\"sidebar\";a:3:{s:4:\"name\";s:7:\"sidebar\";s:4:\"slug\";s:7:\"sidebar\";s:5:\"count\";s:4:\"1979\";}s:9:\"shortcode\";a:3:{s:4:\"name\";s:9:\"shortcode\";s:4:\"slug\";s:9:\"shortcode\";s:5:\"count\";s:4:\"1858\";}s:6:\"google\";a:3:{s:4:\"name\";s:6:\"google\";s:4:\"slug\";s:6:\"google\";s:5:\"count\";s:4:\"1818\";}s:7:\"twitter\";a:3:{s:4:\"name\";s:7:\"twitter\";s:4:\"slug\";s:7:\"twitter\";s:5:\"count\";s:4:\"1763\";}s:6:\"images\";a:3:{s:4:\"name\";s:6:\"images\";s:4:\"slug\";s:6:\"images\";s:5:\"count\";s:4:\"1743\";}s:4:\"page\";a:3:{s:4:\"name\";s:4:\"page\";s:4:\"slug\";s:4:\"page\";s:5:\"count\";s:4:\"1705\";}s:8:\"comments\";a:3:{s:4:\"name\";s:8:\"comments\";s:4:\"slug\";s:8:\"comments\";s:5:\"count\";s:4:\"1699\";}s:5:\"image\";a:3:{s:4:\"name\";s:5:\"image\";s:4:\"slug\";s:5:\"image\";s:5:\"count\";s:4:\"1589\";}s:8:\"facebook\";a:3:{s:4:\"name\";s:8:\"Facebook\";s:4:\"slug\";s:8:\"facebook\";s:5:\"count\";s:4:\"1395\";}s:3:\"seo\";a:3:{s:4:\"name\";s:3:\"seo\";s:4:\"slug\";s:3:\"seo\";s:5:\"count\";s:4:\"1345\";}s:9:\"wordpress\";a:3:{s:4:\"name\";s:9:\"wordpress\";s:4:\"slug\";s:9:\"wordpress\";s:5:\"count\";s:4:\"1271\";}s:5:\"links\";a:3:{s:4:\"name\";s:5:\"links\";s:4:\"slug\";s:5:\"links\";s:5:\"count\";s:4:\"1199\";}s:6:\"social\";a:3:{s:4:\"name\";s:6:\"social\";s:4:\"slug\";s:6:\"social\";s:5:\"count\";s:4:\"1147\";}s:7:\"gallery\";a:3:{s:4:\"name\";s:7:\"gallery\";s:4:\"slug\";s:7:\"gallery\";s:5:\"count\";s:4:\"1129\";}s:5:\"email\";a:3:{s:4:\"name\";s:5:\"email\";s:4:\"slug\";s:5:\"email\";s:5:\"count\";s:3:\"993\";}s:7:\"widgets\";a:3:{s:4:\"name\";s:7:\"widgets\";s:4:\"slug\";s:7:\"widgets\";s:5:\"count\";s:3:\"965\";}s:5:\"pages\";a:3:{s:4:\"name\";s:5:\"pages\";s:4:\"slug\";s:5:\"pages\";s:5:\"count\";s:3:\"917\";}s:11:\"woocommerce\";a:3:{s:4:\"name\";s:11:\"woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:5:\"count\";s:3:\"884\";}s:6:\"jquery\";a:3:{s:4:\"name\";s:6:\"jquery\";s:4:\"slug\";s:6:\"jquery\";s:5:\"count\";s:3:\"877\";}s:3:\"rss\";a:3:{s:4:\"name\";s:3:\"rss\";s:4:\"slug\";s:3:\"rss\";s:5:\"count\";s:3:\"855\";}s:5:\"media\";a:3:{s:4:\"name\";s:5:\"media\";s:4:\"slug\";s:5:\"media\";s:5:\"count\";s:3:\"839\";}s:5:\"video\";a:3:{s:4:\"name\";s:5:\"video\";s:4:\"slug\";s:5:\"video\";s:5:\"count\";s:3:\"798\";}s:4:\"ajax\";a:3:{s:4:\"name\";s:4:\"AJAX\";s:4:\"slug\";s:4:\"ajax\";s:5:\"count\";s:3:\"774\";}s:7:\"content\";a:3:{s:4:\"name\";s:7:\"content\";s:4:\"slug\";s:7:\"content\";s:5:\"count\";s:3:\"747\";}s:10:\"javascript\";a:3:{s:4:\"name\";s:10:\"javascript\";s:4:\"slug\";s:10:\"javascript\";s:5:\"count\";s:3:\"728\";}s:5:\"login\";a:3:{s:4:\"name\";s:5:\"login\";s:4:\"slug\";s:5:\"login\";s:5:\"count\";s:3:\"721\";}s:9:\"ecommerce\";a:3:{s:4:\"name\";s:9:\"ecommerce\";s:4:\"slug\";s:9:\"ecommerce\";s:5:\"count\";s:3:\"715\";}s:10:\"buddypress\";a:3:{s:4:\"name\";s:10:\"buddypress\";s:4:\"slug\";s:10:\"buddypress\";s:5:\"count\";s:3:\"684\";}s:5:\"photo\";a:3:{s:4:\"name\";s:5:\"photo\";s:4:\"slug\";s:5:\"photo\";s:5:\"count\";s:3:\"676\";}s:4:\"feed\";a:3:{s:4:\"name\";s:4:\"feed\";s:4:\"slug\";s:4:\"feed\";s:5:\"count\";s:3:\"672\";}s:4:\"link\";a:3:{s:4:\"name\";s:4:\"link\";s:4:\"slug\";s:4:\"link\";s:5:\"count\";s:3:\"662\";}s:7:\"youtube\";a:3:{s:4:\"name\";s:7:\"youtube\";s:4:\"slug\";s:7:\"youtube\";s:5:\"count\";s:3:\"638\";}s:6:\"photos\";a:3:{s:4:\"name\";s:6:\"photos\";s:4:\"slug\";s:6:\"photos\";s:5:\"count\";s:3:\"628\";}s:4:\"spam\";a:3:{s:4:\"name\";s:4:\"spam\";s:4:\"slug\";s:4:\"spam\";s:5:\"count\";s:3:\"627\";}s:8:\"security\";a:3:{s:4:\"name\";s:8:\"security\";s:4:\"slug\";s:8:\"security\";s:5:\"count\";s:3:\"627\";}}','yes'),
 	(191,'acf_version','4.4.1','yes'),
-	(192,'_transient_doing_cron','1430342344.1332759857177734375000','yes'),
+	(192,'_transient_doing_cron','1430364391.5520999431610107421875','yes'),
 	(193,'db_upgraded','','yes'),
 	(195,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.2.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.2.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.2.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.2.1-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.2.1\";s:7:\"version\";s:5:\"4.2.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.1\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1430340758;s:15:\"version_checked\";s:5:\"4.2.1\";s:12:\"translations\";a:0:{}}','yes'),
 	(197,'can_compress_scripts','1','yes'),
@@ -282,7 +282,8 @@ VALUES
 	(217,'rg_gforms_captcha_public_key','','yes'),
 	(218,'rg_gforms_captcha_private_key','','yes'),
 	(219,'rg_gforms_currency','USD','yes'),
-	(220,'rg_gforms_message','<!--GFM-->','yes');
+	(220,'rg_gforms_message','<!--GFM-->','yes'),
+	(223,'category_children','a:0:{}','yes');
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -437,7 +438,142 @@ VALUES
 	(136,56,'sponsor_url','http://www.mvpindex.com/'),
 	(137,56,'_sponsor_url','field_55413de5f9bec'),
 	(138,56,'logo','57'),
-	(139,56,'_logo','field_55413eca03833');
+	(139,56,'_logo','field_55413eca03833'),
+	(140,2,'_wp_trash_meta_status','publish'),
+	(141,2,'_wp_trash_meta_time','1430361919'),
+	(142,59,'_edit_last','1'),
+	(143,59,'_edit_lock','1430363124:1'),
+	(144,59,'_wp_page_template','default'),
+	(145,61,'_edit_last','1'),
+	(146,61,'field_5541978f335b1','a:11:{s:3:\"key\";s:19:\"field_5541978f335b1\";s:5:\"label\";s:16:\"Homepage Address\";s:4:\"name\";s:16:\"homepage_address\";s:4:\"type\";s:7:\"wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:7:\"toolbar\";s:4:\"full\";s:12:\"media_upload\";s:3:\"yes\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+	(147,61,'field_554197b0335b2','a:14:{s:3:\"key\";s:19:\"field_554197b0335b2\";s:5:\"label\";s:16:\"Homepage Hashtag\";s:4:\"name\";s:16:\"homepage_hashtag\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+	(148,61,'field_554197c8335b3','a:14:{s:3:\"key\";s:19:\"field_554197c8335b3\";s:5:\"label\";s:16:\"Homepage Tagline\";s:4:\"name\";s:16:\"homepage_tagline\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+	(149,61,'field_554197ed335b4','a:14:{s:3:\"key\";s:19:\"field_554197ed335b4\";s:5:\"label\";s:12:\"Masthead CTA\";s:4:\"name\";s:12:\"masthead_cta\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:3;}'),
+	(150,61,'field_554197f9335b5','a:11:{s:3:\"key\";s:19:\"field_554197f9335b5\";s:5:\"label\";s:14:\"Masthead Image\";s:4:\"name\";s:14:\"masthead_image\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:11:\"save_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:4;}'),
+	(151,61,'field_55419826335b6','a:8:{s:3:\"key\";s:19:\"field_55419826335b6\";s:5:\"label\";s:4:\"Left\";s:4:\"name\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:5;}'),
+	(152,61,'field_55419867335b7','a:14:{s:3:\"key\";s:19:\"field_55419867335b7\";s:5:\"label\";s:10:\"Left Title\";s:4:\"name\";s:10:\"left_title\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"none\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:6;}'),
+	(153,61,'field_55419876335b8','a:11:{s:3:\"key\";s:19:\"field_55419876335b8\";s:5:\"label\";s:9:\"Left List\";s:4:\"name\";s:9:\"left_list\";s:4:\"type\";s:7:\"wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:7:\"toolbar\";s:4:\"full\";s:12:\"media_upload\";s:3:\"yes\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:7;}'),
+	(154,61,'field_5541989b335b9','a:8:{s:3:\"key\";s:19:\"field_5541989b335b9\";s:5:\"label\";s:5:\"RIght\";s:4:\"name\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:8;}'),
+	(155,61,'field_554198ba335ba','a:14:{s:3:\"key\";s:19:\"field_554198ba335ba\";s:5:\"label\";s:12:\"Right Title \";s:4:\"name\";s:11:\"right_title\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"none\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:9;}'),
+	(156,61,'field_554198cc335bb','a:11:{s:3:\"key\";s:19:\"field_554198cc335bb\";s:5:\"label\";s:10:\"Right List\";s:4:\"name\";s:10:\"right_list\";s:4:\"type\";s:7:\"wysiwyg\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:7:\"toolbar\";s:4:\"full\";s:12:\"media_upload\";s:3:\"yes\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:10;}'),
+	(157,61,'field_55419922335bc','a:14:{s:3:\"key\";s:19:\"field_55419922335bc\";s:5:\"label\";s:12:\"First Ribbon\";s:4:\"name\";s:12:\"first_ribbon\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:12;}'),
+	(158,61,'field_55419939335bd','a:14:{s:3:\"key\";s:19:\"field_55419939335bd\";s:5:\"label\";s:13:\"Second Ribbon\";s:4:\"name\";s:13:\"second_ribbon\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:13;}'),
+	(159,61,'field_55419944335be','a:14:{s:3:\"key\";s:19:\"field_55419944335be\";s:5:\"label\";s:21:\"Second Ribbon Subhead\";s:4:\"name\";s:21:\"second_ribbon_subhead\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:14;}'),
+	(160,61,'field_5541995d335bf','a:14:{s:3:\"key\";s:19:\"field_5541995d335bf\";s:5:\"label\";s:12:\"Third Ribbon\";s:4:\"name\";s:12:\"third_ribbon\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:15;}'),
+	(162,61,'position','normal'),
+	(163,61,'layout','no_box'),
+	(164,61,'hide_on_screen','a:13:{i:0;s:9:\"permalink\";i:1;s:11:\"the_content\";i:2;s:7:\"excerpt\";i:3;s:10:\"discussion\";i:4;s:8:\"comments\";i:5;s:9:\"revisions\";i:6;s:4:\"slug\";i:7;s:6:\"author\";i:8;s:6:\"format\";i:9;s:14:\"featured_image\";i:10;s:10:\"categories\";i:11;s:4:\"tags\";i:12;s:15:\"send-trackbacks\";}'),
+	(165,61,'_edit_lock','1430362921:1'),
+	(167,62,'_wp_attached_file','2015/04/hero.png'),
+	(168,62,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:1114;s:6:\"height\";i:626;s:4:\"file\";s:16:\"2015/04/hero.png\";s:5:\"sizes\";a:5:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:16:\"hero-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";}s:6:\"medium\";a:4:{s:4:\"file\";s:16:\"hero-250x140.png\";s:5:\"width\";i:250;s:6:\"height\";i:140;s:9:\"mime-type\";s:9:\"image/png\";}s:5:\"large\";a:4:{s:4:\"file\";s:16:\"hero-700x393.png\";s:5:\"width\";i:700;s:6:\"height\";i:393;s:9:\"mime-type\";s:9:\"image/png\";}s:5:\"small\";a:4:{s:4:\"file\";s:15:\"hero-120x67.png\";s:5:\"width\";i:120;s:6:\"height\";i:67;s:9:\"mime-type\";s:9:\"image/png\";}s:11:\"custom-size\";a:4:{s:4:\"file\";s:16:\"hero-700x200.png\";s:5:\"width\";i:700;s:6:\"height\";i:200;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}'),
+	(169,63,'homepage_address','<a href=\"https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534\" target=\"_blank\">8TH FLOOR 211 N ERVAY ST <br>\r\nDALLAS TX 75201</a>'),
+	(170,63,'_homepage_address','field_5541978f335b1'),
+	(171,63,'homepage_hashtag','eventSpace'),
+	(172,63,'_homepage_hashtag','field_554197b0335b2'),
+	(173,63,'homepage_tagline','All you have to do is show up.'),
+	(174,63,'_homepage_tagline','field_554197c8335b3'),
+	(175,63,'masthead_cta','Let\'s Do This'),
+	(176,63,'_masthead_cta','field_554197ed335b4'),
+	(177,63,'masthead_image','62'),
+	(178,63,'_masthead_image','field_554197f9335b5'),
+	(179,63,'left_title','Features'),
+	(180,63,'_left_title','field_55419867335b7'),
+	(181,63,'left_list','<ul>\r\n	<li>10,000 s/f space</li>\r\n	<li>Super Fast WiFi</li>\r\n	<li>Art Gallery</li>\r\n	<li>Projectors</li>\r\n	<li>Audio System/ Microphones</li>\r\n	<li>Breathtaking Downtown Views</li>\r\n	<li>AV Setup and Labor</li>\r\n	<li>Fully Stocked Drink Station</li>\r\n</ul>'),
+	(182,63,'_left_list','field_55419876335b8'),
+	(183,63,'right_title','Services'),
+	(184,63,'_right_title','field_554198ba335ba'),
+	(185,63,'right_list','<ul>\r\n	<li>Event Coordination</li>\r\n	<li>Marketing</li>\r\n	<li>Catering</li>\r\n	<li>Beer &amp; Wine Bar</li>\r\n	<li>Full Bar</li>\r\n	<li>Lighting</li>\r\n	<li>Conceptual Design</li>\r\n	<li>Floral</li>\r\n	<li>Security</li>\r\n	<li>Furniture &amp; Linen Rental</li>\r\n</ul>'),
+	(186,63,'_right_list','field_554198cc335bb'),
+	(187,63,'first_ribbon',''),
+	(188,63,'_first_ribbon','field_55419922335bc'),
+	(189,63,'second_ribbon',''),
+	(190,63,'_second_ribbon','field_55419939335bd'),
+	(191,63,'second_ribbon_subhead',''),
+	(192,63,'_second_ribbon_subhead','field_55419944335be'),
+	(193,63,'third_ribbon',''),
+	(194,63,'_third_ribbon','field_5541995d335bf'),
+	(195,59,'homepage_address','<a href=\"https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534\" target=\"_blank\">8TH FLOOR 211 N ERVAY ST\r\nDALLAS TX 75201</a>'),
+	(196,59,'_homepage_address','field_5541978f335b1'),
+	(197,59,'homepage_hashtag','eventSpace'),
+	(198,59,'_homepage_hashtag','field_554197b0335b2'),
+	(199,59,'homepage_tagline','All you have to do is show up.'),
+	(200,59,'_homepage_tagline','field_554197c8335b3'),
+	(201,59,'masthead_cta','Let\'s Do This'),
+	(202,59,'_masthead_cta','field_554197ed335b4'),
+	(203,59,'masthead_image','62'),
+	(204,59,'_masthead_image','field_554197f9335b5'),
+	(205,59,'left_title','Features'),
+	(206,59,'_left_title','field_55419867335b7'),
+	(207,59,'left_list','<ul>\r\n	<li>10,000 s/f space</li>\r\n	<li>Super Fast WiFi</li>\r\n	<li>Art Gallery</li>\r\n	<li>Projectors</li>\r\n	<li>Audio System/ Microphones</li>\r\n	<li>Breathtaking Downtown Views</li>\r\n	<li>AV Setup and Labor</li>\r\n	<li>Fully Stocked Drink Station</li>\r\n</ul>'),
+	(208,59,'_left_list','field_55419876335b8'),
+	(209,59,'right_title','Services'),
+	(210,59,'_right_title','field_554198ba335ba'),
+	(211,59,'right_list','<ul>\r\n	<li>Event Coordination</li>\r\n	<li>Marketing</li>\r\n	<li>Catering</li>\r\n	<li>Beer &amp; Wine Bar</li>\r\n	<li>Full Bar</li>\r\n	<li>Lighting</li>\r\n	<li>Conceptual Design</li>\r\n	<li>Floral</li>\r\n	<li>Security</li>\r\n	<li>Furniture &amp; Linen Rental</li>\r\n</ul>'),
+	(212,59,'_right_list','field_554198cc335bb'),
+	(213,59,'first_ribbon','Audience'),
+	(214,59,'_first_ribbon','field_55419922335bc'),
+	(215,59,'second_ribbon','Packages'),
+	(216,59,'_second_ribbon','field_55419939335bd'),
+	(217,59,'second_ribbon_subhead','Starting at $1000'),
+	(218,59,'_second_ribbon_subhead','field_55419944335be'),
+	(219,59,'third_ribbon','Past Events'),
+	(220,59,'_third_ribbon','field_5541995d335bf'),
+	(221,61,'field_55419a80d7e45','a:8:{s:3:\"key\";s:19:\"field_55419a80d7e45\";s:5:\"label\";s:13:\"Ribbon Titles\";s:4:\"name\";s:0:\"\";s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:11;}'),
+	(223,64,'homepage_address','<a href=\"https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534\" target=\"_blank\">8TH FLOOR 211 N ERVAY ST <br>\r\nDALLAS TX 75201</a>'),
+	(224,64,'_homepage_address','field_5541978f335b1'),
+	(225,64,'homepage_hashtag','eventSpace'),
+	(226,64,'_homepage_hashtag','field_554197b0335b2'),
+	(227,64,'homepage_tagline','All you have to do is show up.'),
+	(228,64,'_homepage_tagline','field_554197c8335b3'),
+	(229,64,'masthead_cta','Let\'s Do This'),
+	(230,64,'_masthead_cta','field_554197ed335b4'),
+	(231,64,'masthead_image','62'),
+	(232,64,'_masthead_image','field_554197f9335b5'),
+	(233,64,'left_title','Features'),
+	(234,64,'_left_title','field_55419867335b7'),
+	(235,64,'left_list','<ul>\r\n	<li>10,000 s/f space</li>\r\n	<li>Super Fast WiFi</li>\r\n	<li>Art Gallery</li>\r\n	<li>Projectors</li>\r\n	<li>Audio System/ Microphones</li>\r\n	<li>Breathtaking Downtown Views</li>\r\n	<li>AV Setup and Labor</li>\r\n	<li>Fully Stocked Drink Station</li>\r\n</ul>'),
+	(236,64,'_left_list','field_55419876335b8'),
+	(237,64,'right_title','Services'),
+	(238,64,'_right_title','field_554198ba335ba'),
+	(239,64,'right_list','<ul>\r\n	<li>Event Coordination</li>\r\n	<li>Marketing</li>\r\n	<li>Catering</li>\r\n	<li>Beer &amp; Wine Bar</li>\r\n	<li>Full Bar</li>\r\n	<li>Lighting</li>\r\n	<li>Conceptual Design</li>\r\n	<li>Floral</li>\r\n	<li>Security</li>\r\n	<li>Furniture &amp; Linen Rental</li>\r\n</ul>'),
+	(240,64,'_right_list','field_554198cc335bb'),
+	(241,64,'first_ribbon','Audience'),
+	(242,64,'_first_ribbon','field_55419922335bc'),
+	(243,64,'second_ribbon','Packages'),
+	(244,64,'_second_ribbon','field_55419939335bd'),
+	(245,64,'second_ribbon_subhead','Starting at $1000'),
+	(246,64,'_second_ribbon_subhead','field_55419944335be'),
+	(247,64,'third_ribbon','Past Events'),
+	(248,64,'_third_ribbon','field_5541995d335bf'),
+	(249,61,'rule','a:5:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:2:\"59\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+	(250,65,'homepage_address','<a href=\"https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534\" target=\"_blank\">8TH FLOOR 211 N ERVAY ST\r\nDALLAS TX 75201</a>'),
+	(251,65,'_homepage_address','field_5541978f335b1'),
+	(252,65,'homepage_hashtag','eventSpace'),
+	(253,65,'_homepage_hashtag','field_554197b0335b2'),
+	(254,65,'homepage_tagline','All you have to do is show up.'),
+	(255,65,'_homepage_tagline','field_554197c8335b3'),
+	(256,65,'masthead_cta','Let\'s Do This'),
+	(257,65,'_masthead_cta','field_554197ed335b4'),
+	(258,65,'masthead_image','62'),
+	(259,65,'_masthead_image','field_554197f9335b5'),
+	(260,65,'left_title','Features'),
+	(261,65,'_left_title','field_55419867335b7'),
+	(262,65,'left_list','<ul>\r\n	<li>10,000 s/f space</li>\r\n	<li>Super Fast WiFi</li>\r\n	<li>Art Gallery</li>\r\n	<li>Projectors</li>\r\n	<li>Audio System/ Microphones</li>\r\n	<li>Breathtaking Downtown Views</li>\r\n	<li>AV Setup and Labor</li>\r\n	<li>Fully Stocked Drink Station</li>\r\n</ul>'),
+	(263,65,'_left_list','field_55419876335b8'),
+	(264,65,'right_title','Services'),
+	(265,65,'_right_title','field_554198ba335ba'),
+	(266,65,'right_list','<ul>\r\n	<li>Event Coordination</li>\r\n	<li>Marketing</li>\r\n	<li>Catering</li>\r\n	<li>Beer &amp; Wine Bar</li>\r\n	<li>Full Bar</li>\r\n	<li>Lighting</li>\r\n	<li>Conceptual Design</li>\r\n	<li>Floral</li>\r\n	<li>Security</li>\r\n	<li>Furniture &amp; Linen Rental</li>\r\n</ul>'),
+	(267,65,'_right_list','field_554198cc335bb'),
+	(268,65,'first_ribbon','Audience'),
+	(269,65,'_first_ribbon','field_55419922335bc'),
+	(270,65,'second_ribbon','Packages'),
+	(271,65,'_second_ribbon','field_55419939335bd'),
+	(272,65,'second_ribbon_subhead','Starting at $1000'),
+	(273,65,'_second_ribbon_subhead','field_55419944335be'),
+	(274,65,'third_ribbon','Past Events'),
+	(275,65,'_third_ribbon','field_5541995d335bf'),
+	(276,18,'_wp_trash_meta_status','draft'),
+	(277,18,'_wp_trash_meta_time','1430363273');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -485,7 +621,7 @@ LOCK TABLES `wp_posts` WRITE;
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`)
 VALUES
 	(1,1,'2015-04-23 22:07:39','2015-04-23 22:07:39','Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!','Hello world!','','publish','open','open','','hello-world','','','2015-04-23 22:07:39','2015-04-23 22:07:39','',0,'http://localhost:8888/eventspace/?p=1',0,'post','',1),
-	(2,1,'2015-04-23 22:07:39','2015-04-23 22:07:39','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/eventspace/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','open','open','','sample-page','','','2015-04-23 22:07:39','2015-04-23 22:07:39','',0,'http://localhost:8888/eventspace/?page_id=2',0,'page','',0),
+	(2,1,'2015-04-23 22:07:39','2015-04-23 22:07:39','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/eventspace/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','trash','open','open','','sample-page','','','2015-04-30 02:45:19','2015-04-30 02:45:19','',0,'http://localhost:8888/eventspace/?page_id=2',0,'page','',0),
 	(3,1,'2015-04-23 22:07:51','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-23 22:07:51','0000-00-00 00:00:00','',0,'http://localhost:8888/eventspace/?p=3',0,'post','',0),
 	(4,1,'2015-04-29 20:25:15','2015-04-29 20:25:15','','Sponsors Post Type','','publish','closed','closed','','acf_sponsors-post-type','','','2015-04-29 20:28:27','2015-04-29 20:28:27','',0,'http://eventspace.dev/?post_type=acf&#038;p=4',0,'acf','',0),
 	(5,1,'2015-04-29 20:25:20','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:25:20','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=sponsors&p=5',0,'sponsors','',0),
@@ -501,7 +637,7 @@ VALUES
 	(15,1,'2015-04-29 20:36:00','2015-04-29 20:36:00','','Audience Panels Post Type','','publish','closed','closed','','acf_audience-panels-post-type','','','2015-04-29 20:46:59','2015-04-29 20:46:59','',0,'http://eventspace.dev/?post_type=acf&#038;p=15',0,'acf','',0),
 	(16,1,'2015-04-29 20:36:06','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:36:06','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=audience&p=16',0,'audience','',0),
 	(17,1,'2015-04-29 20:36:17','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:36:17','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=audience&p=17',0,'audience','',0),
-	(18,1,'2015-04-29 20:36:52','0000-00-00 00:00:00','','','','draft','closed','closed','','','','','2015-04-29 20:36:52','2015-04-29 20:36:52','',0,'http://eventspace.dev/?post_type=audience&#038;p=18',3,'audience','',0),
+	(18,1,'2015-04-29 20:36:52','2015-04-29 20:36:52','','','','trash','closed','closed','','18','','','2015-04-30 03:07:53','2015-04-30 03:07:53','',0,'http://eventspace.dev/?post_type=audience&#038;p=18',3,'audience','',0),
 	(19,1,'2015-04-29 20:36:54','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:36:54','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=audience&p=19',0,'audience','',0),
 	(20,1,'2015-04-29 20:36:59','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:36:59','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=audience&p=20',0,'audience','',0),
 	(21,1,'2015-04-29 20:37:23','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2015-04-29 20:37:23','0000-00-00 00:00:00','',0,'http://eventspace.dev/?post_type=audience&p=21',0,'audience','',0),
@@ -540,7 +676,15 @@ VALUES
 	(54,1,'2015-04-29 21:06:50','2015-04-29 21:06:50','','LaunchDFW','','publish','closed','closed','','launchdfw','','','2015-04-29 21:06:50','2015-04-29 21:06:50','',0,'http://eventspace.dev/?post_type=sponsors&#038;p=54',6,'sponsors','',0),
 	(55,1,'2015-04-29 21:06:46','2015-04-29 21:06:46','','launch','','inherit','open','open','','launch','','','2015-04-29 21:06:46','2015-04-29 21:06:46','',54,'http://eventspace.dev/wp-content/uploads/2015/04/launch.png',0,'attachment','image/png',0),
 	(56,1,'2015-04-29 21:07:13','2015-04-29 21:07:13','','MVPIndex','','publish','closed','closed','','mvpindex','','','2015-04-29 21:07:13','2015-04-29 21:07:13','',0,'http://eventspace.dev/?post_type=sponsors&#038;p=56',7,'sponsors','',0),
-	(57,1,'2015-04-29 21:07:10','2015-04-29 21:07:10','','mvp1','','inherit','open','open','','mvp1','','','2015-04-29 21:07:10','2015-04-29 21:07:10','',56,'http://eventspace.dev/wp-content/uploads/2015/04/mvp1.png',0,'attachment','image/png',0);
+	(57,1,'2015-04-29 21:07:10','2015-04-29 21:07:10','','mvp1','','inherit','open','open','','mvp1','','','2015-04-29 21:07:10','2015-04-29 21:07:10','',56,'http://eventspace.dev/wp-content/uploads/2015/04/mvp1.png',0,'attachment','image/png',0),
+	(58,1,'2015-04-30 02:45:19','2015-04-30 02:45:19','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/eventspace/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','inherit','open','open','','2-revision-v1','','','2015-04-30 02:45:19','2015-04-30 02:45:19','',2,'http://eventspace.dev/2-revision-v1/',0,'revision','',0),
+	(59,1,'2015-04-30 02:46:14','2015-04-30 02:46:14','','Homepage','','publish','open','open','','homepage','','','2015-04-30 03:04:38','2015-04-30 03:04:38','',0,'http://eventspace.dev/?page_id=59',0,'page','',0),
+	(60,1,'2015-04-30 02:46:14','2015-04-30 02:46:14','','Homepage','','inherit','open','open','','59-revision-v1','','','2015-04-30 02:46:14','2015-04-30 02:46:14','',59,'http://eventspace.dev/59-revision-v1/',0,'revision','',0),
+	(61,1,'2015-04-30 02:55:13','2015-04-30 02:55:13','','Homepage Options','','publish','closed','closed','','acf_homepage-options','','','2015-04-30 03:04:22','2015-04-30 03:04:22','',0,'http://eventspace.dev/?post_type=acf&#038;p=61',0,'acf','',0),
+	(62,1,'2015-04-30 02:57:42','2015-04-30 02:57:42','','hero','','inherit','open','open','','hero','','','2015-04-30 02:57:42','2015-04-30 02:57:42','',59,'http://eventspace.dev/wp-content/uploads/2015/04/hero.png',0,'attachment','image/png',0),
+	(63,1,'2015-04-30 02:58:47','2015-04-30 02:58:47','','Homepage','','inherit','open','open','','59-revision-v1','','','2015-04-30 02:58:47','2015-04-30 02:58:47','',59,'http://eventspace.dev/59-revision-v1/',0,'revision','',0),
+	(64,1,'2015-04-30 03:00:40','2015-04-30 03:00:40','','Homepage','','inherit','open','open','','59-revision-v1','','','2015-04-30 03:00:40','2015-04-30 03:00:40','',59,'http://eventspace.dev/59-revision-v1/',0,'revision','',0),
+	(65,1,'2015-04-30 03:04:38','2015-04-30 03:04:38','','Homepage','','inherit','open','open','','59-revision-v1','','','2015-04-30 03:04:38','2015-04-30 03:04:38','',59,'http://eventspace.dev/59-revision-v1/',0,'revision','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -560,6 +704,15 @@ CREATE TABLE `wp_rg_form` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `wp_rg_form` WRITE;
+/*!40000 ALTER TABLE `wp_rg_form` DISABLE KEYS */;
+
+INSERT INTO `wp_rg_form` (`id`, `title`, `date_created`, `is_active`, `is_trash`)
+VALUES
+	(1,'Homepage Contact','2015-04-30 03:09:29',1,0);
+
+/*!40000 ALTER TABLE `wp_rg_form` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table wp_rg_form_meta
@@ -576,6 +729,15 @@ CREATE TABLE `wp_rg_form_meta` (
   PRIMARY KEY (`form_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `wp_rg_form_meta` WRITE;
+/*!40000 ALTER TABLE `wp_rg_form_meta` DISABLE KEYS */;
+
+INSERT INTO `wp_rg_form_meta` (`form_id`, `display_meta`, `entries_grid_meta`, `confirmations`, `notifications`)
+VALUES
+	(1,'{\"title\":\"Homepage Contact\",\"description\":\"\",\"labelPlacement\":\"top_label\",\"descriptionPlacement\":\"below\",\"button\":{\"type\":\"text\",\"text\":\"Submit\",\"imageUrl\":\"\"},\"fields\":[{\"type\":\"name\",\"id\":1,\"label\":\"Name\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"medium\",\"errorMessage\":\"\",\"nameFormat\":\"advanced\",\"inputs\":[{\"id\":\"1.2\",\"label\":\"Prefix\",\"name\":\"\",\"choices\":[{\"text\":\"Mr.\",\"value\":\"Mr.\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Mrs.\",\"value\":\"Mrs.\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Miss\",\"value\":\"Miss\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Ms.\",\"value\":\"Ms.\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Dr.\",\"value\":\"Dr.\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Prof.\",\"value\":\"Prof.\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Rev.\",\"value\":\"Rev.\",\"isSelected\":false,\"price\":\"\"}],\"isHidden\":true,\"inputType\":\"radio\"},{\"id\":\"1.3\",\"label\":\"First\",\"name\":\"\"},{\"id\":\"1.4\",\"label\":\"Middle\",\"name\":\"\",\"isHidden\":true},{\"id\":\"1.6\",\"label\":\"Last\",\"name\":\"\"},{\"id\":\"1.8\",\"label\":\"Suffix\",\"name\":\"\",\"isHidden\":true}],\"formId\":1,\"pageNumber\":1,\"choices\":\"\",\"conditionalLogic\":\"\"},{\"type\":\"phone\",\"id\":2,\"label\":\"Phone\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"medium\",\"errorMessage\":\"\",\"inputs\":null,\"phoneFormat\":\"standard\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"allowsPrepopulate\":false,\"cssClass\":\"\",\"formId\":1,\"pageNumber\":1,\"choices\":\"\",\"conditionalLogic\":\"\"},{\"type\":\"email\",\"id\":3,\"label\":\"Email\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"medium\",\"errorMessage\":\"\",\"inputs\":null,\"formId\":1,\"pageNumber\":1,\"choices\":\"\",\"conditionalLogic\":\"\"},{\"type\":\"post_content\",\"id\":4,\"label\":\"Post Body\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"medium\",\"errorMessage\":\"\",\"inputs\":null,\"formId\":1,\"pageNumber\":1,\"choices\":\"\",\"conditionalLogic\":\"\"}],\"id\":1,\"useCurrentUserAsAuthor\":true,\"postContentTemplateEnabled\":false,\"postTitleTemplateEnabled\":false,\"postTitleTemplate\":\"\",\"postContentTemplate\":\"\",\"lastPageButton\":null,\"pagination\":null,\"firstPageCssClass\":null,\"postAuthor\":\"1\",\"postCategory\":\"1\",\"postFormat\":0,\"postStatus\":\"draft\"}',NULL,'{\"55419ce99b5f7\":{\"id\":\"55419ce99b5f7\",\"name\":\"Default Confirmation\",\"isDefault\":true,\"type\":\"message\",\"message\":\"Thanks for contacting us! We will get in touch with you shortly.\",\"url\":\"\",\"pageId\":\"\",\"queryString\":\"\"}}','{\"55419ce99b3b9\":{\"id\":\"55419ce99b3b9\",\"to\":\"{admin_email}\",\"name\":\"Admin Notification\",\"event\":\"form_submission\",\"toType\":\"email\",\"subject\":\"New submission from {form_title}\",\"message\":\"{all_fields}\"}}');
+
+/*!40000 ALTER TABLE `wp_rg_form_meta` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 # Dump of table wp_rg_form_view
@@ -826,9 +988,9 @@ VALUES
 	(9,1,'show_admin_bar_front','true'),
 	(10,1,'wp_capabilities','a:1:{s:13:\"administrator\";b:1;}'),
 	(11,1,'wp_user_level','10'),
-	(12,1,'dismissed_wp_pointers','wp360_locks,wp390_widgets'),
+	(12,1,'dismissed_wp_pointers','wp360_locks,wp390_widgets,wp410_dfw'),
 	(13,1,'show_welcome_panel','1'),
-	(14,1,'session_tokens','a:2:{s:64:\"a3f18766404c55cc7be08b3b19ea287d377afdd78c323761e43de46d11db3de8\";a:4:{s:10:\"expiration\";i:1430500985;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:120:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\";s:5:\"login\";i:1430328185;}s:64:\"ffb1a892f03a0858f7577c752a50291b0fea95063087b5902d176319baaba4ff\";a:4:{s:10:\"expiration\";i:1430510511;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:118:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/8.0.4 Safari/600.4.10\";s:5:\"login\";i:1430337711;}}'),
+	(14,1,'session_tokens','a:3:{s:64:\"a3f18766404c55cc7be08b3b19ea287d377afdd78c323761e43de46d11db3de8\";a:4:{s:10:\"expiration\";i:1430500985;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:120:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\";s:5:\"login\";i:1430328185;}s:64:\"ffb1a892f03a0858f7577c752a50291b0fea95063087b5902d176319baaba4ff\";a:4:{s:10:\"expiration\";i:1430510511;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:118:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/8.0.4 Safari/600.4.10\";s:5:\"login\";i:1430337711;}s:64:\"b0e31241a391482f46e41cc9195fe75a72eb6edc47a285a061f781a3506ea67b\";a:4:{s:10:\"expiration\";i:1430534708;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:118:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/8.0.4 Safari/600.4.10\";s:5:\"login\";i:1430361908;}}'),
 	(15,1,'wp_dashboard_quick_press_last_post_id','3'),
 	(16,1,'wp_user-settings','libraryContent=browse&hidetb=1'),
 	(17,1,'wp_user-settings-time','1430340440'),
