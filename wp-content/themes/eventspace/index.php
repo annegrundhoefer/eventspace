@@ -5,7 +5,7 @@
 		<h3><?php the_field('homepage_address',59); ?></h3>
 		<h1> #<?php the_field('homepage_hashtag',59); ?></h1>
 		<h2><?php the_field('homepage_tagline',59); ?></h2>
-		<div class="btn btn-primary"><?php the_field('masthead_cta',59); ?></div>
+		<a href="#1"<div class="btn btn-primary"><?php the_field('masthead_cta',59); ?></div></a>
 	</div>
 
 	
@@ -223,37 +223,9 @@ if ($packages->have_posts()) {
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 touch">
-				<form class="form" role="form" method="post" action="form-submit.php">
-   					<div class="form-group col-md-6">
-      					<label for="name">First Name *</label>
-      					<input type="text" class="form-control" id="name" name="name">
-      					<?php echo "<p class='text-danger'>$errName</p>";?>
-   					</div>
-   					<div class="form-group col-md-6">
-      					<label for="name">Last Name *</label>
-      					<input type="text" class="form-control" id="name" name="name">
-      					<?php echo "<p class='text-danger'>$errName</p>";?>
-   					</div>
-   					<div class="form-group col-md-6">
-      					<label for="email">Phone Number</label>
-      					<input type="text" class="form-control" id="phone" name="phone" >
-      					<?php echo "<p class='text-danger'>$errPhone</p>";?>
-   					</div>
-   					<div class="form-group col-md-6">
-      					<label for="email">Email Address *</label>
-      					<input type="text" class="form-control" id="email" name="email" >
-      					<?php echo "<p class='text-danger'>$errEmail</p>";?>
-   					</div>
-   					<div class="form-group col-md-12">
-      					<label for="message">Message</label>
-      					<textarea class="form-control" rows="3" name="message"></textarea>
-      					<?php echo "<p class='text-danger'>$errMessage</p>";?>
-   					</div>
-   					<div class="button-container col-md-12 text-center">
-   						<button type="submit" class="btn btn-default">Submit</button>
-   						<?php echo $result; ?> 
-   					</div>
-				</form>
+		<?php echo gravity_form( $id = 1, $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex ); ?>
+
+				
 		</div>
 	</div>
 </div>
