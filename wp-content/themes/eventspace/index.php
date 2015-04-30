@@ -2,11 +2,10 @@
 
 <section id="mastHead"> 
 	<div class="mast">
-		<h3><a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534" target="_blank">8TH FLOOR 211 N ERVAY ST <br>
-			DALLAS TX 75201</a></h3>
-		<h1> #eventSpace</h1>
-		<h2>ALL YOU HAVE TO DO IS SHOW UP.</h2>
-		<div class="btn btn-primary">Let's Do This</div>
+		<h3><?php the_field('homepage_address',59); ?></h3>
+		<h1> #<?php the_field('homepage_hashtag',59); ?></h1>
+		<h2><?php the_field('homepage_tagline',59); ?></h2>
+		<div class="btn btn-primary"><?php the_field('masthead_cta',59); ?></div>
 	</div>
 
 	
@@ -15,35 +14,15 @@
 <section id="featuresList">
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
-			<h2>Features</h2>
+			<h2><?php the_field('left_title',59); ?></h2>
 			<div class="center">
-			<ul>
-				<li>10,000 s/f space</li>
-				<li>Super Fast WiFi</li>
-				<li>Art Gallery</li>
-				<li>Projectors</li>
-				<li>Audio System/ Microphones </li>
-				<li>Breathtaking Downtown Views </li>
-				<li>AV Setup and Labor </li>
-				<li>Fully Stocked Drink Station </li>
-			</ul>
+				<?php the_field('left_list',59); ?>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
-			<h2>Services</h2>
+			<h2><?php the_field('right_title',59); ?></h2>
 			<div class="center">
-			<ul>
-				<li>Event Coordination </li>
-				<li>Marketing </li>
-				<li>Catering </li>
-				<li>Beer & Wine Bar </li>
-				<li>Full Bar </li>
-				<li>Lighting  </li>
-				<li>Conceptual Design </li>
-				<li>Floral </li>
-				<li>Security </li>
-				<li>Furniture & Linen Rental</li>
-			</ul>
+				<?php the_field('right_list',59); ?>
 			</div>
 		</div>
 	</div>
@@ -53,7 +32,7 @@
 
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
-		<h2>Audience</h2>
+		<h2><?php the_field('first_ribbon',59); ?></h2>
 	</div>
 </div>
 
@@ -104,8 +83,8 @@ if ($panels->have_posts()) {
 
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-offset-5 col-md-7 col-md-offset-5 col-lg-7 packages text-left">
-		<h2>Packages</h2>
-		<p> Starting at $1,000</p>
+		<h2><?php the_field('second_ribbon',59); ?></h2>
+		<p><?php the_field('second_ribbon_subhead',59); ?></p>
 	</div>
 </div>
 <div class="row">
@@ -143,7 +122,7 @@ if ($packages->have_posts()) {
 
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
-		<h2>Past Events</h2>
+		<h2><?php the_field('third_ribbon',59); ?></h2>
 	</div>
 </div>
 
@@ -235,14 +214,11 @@ if ($packages->have_posts()) {
 		</div>
 		<div class="col-sm-6 col-md-offset-1 col-md-3 contact">
 		<h3>Contact</h3>
-			<h4>Abby Coben</h4>
-			<h4><a href="mailto:abby@dallasfortwork.com">abby@dallasfortwork.com</a></h4>
-			<h4><a href="tel:+12144481015">214.448.1015</a></h4>
-			</div>
-		
+		<h4>Abby Coben</h4>
+		<h4><a href="mailto:abby@dallasfortwork.com">abby@dallasfortwork.com</a></h4>
+		<h4><a href="tel:+12144481015">214.448.1015</a></h4>
+		</div>
 </div>
-
-
 
 <div class="container">
 	<div class="row">
