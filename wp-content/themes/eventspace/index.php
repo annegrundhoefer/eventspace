@@ -1,11 +1,23 @@
 <?php include('header.php'); ?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#scroll").click(function() {
+      $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+      }, 1000);
+   });
+ });
+</script>
+
 <section id="mastHead"> 
 	<div class="mast">
 		<h3><?php the_field('homepage_address',59); ?></h3>
 		<h1> #<?php the_field('homepage_hashtag',59); ?></h1>
 		<h2><?php the_field('homepage_tagline',59); ?></h2>
-		<a href="#1"<div class="btn btn-primary"><?php the_field('masthead_cta',59); ?></div></a>
+		<div class="btn btn-primary" id ="scroll"><?php the_field('masthead_cta',59); ?></div>
 	</div>
 
 	
@@ -17,12 +29,6 @@
 			<h2><?php the_field('left_title',59); ?></h2>
 			<div class="center">
 				<?php the_field('left_list',59); ?>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
-			<h2><?php the_field('right_title',59); ?></h2>
-			<div class="center">
-				<?php the_field('right_list',59); ?>
 			</div>
 		</div>
 	</div>
@@ -203,7 +209,7 @@ if ($packages->have_posts()) {
 
 <section id="featuresList">
 <div class="row">
-	<div class="col-sm-12 col-md-8 map">
+	<div class="col-sm-12 col-md-8 map" id = "contact">
 		<a href="https://www.google.com/maps/dir//211+North+Ervay,+Dallas,+TX+75201/@32.7821534,-96.7976129,17z/data=!4m13!1m4!3m3!1s0x864e99220027e345:0x5821f5dfa4274d24!2s211+North+Ervay,+Dallas,+TX+75201!3b1!4m7!1m0!1m5!1m1!1s0x864e99220027e345:0x5821f5dfa4274d24!2m2!1d-96.7976129!2d32.7821534"><img src="<?php bloginfo('template_url'); ?>/img/map1.png"></a>
 	</div>
 	<div class="col-sm-6 col-md-offset-1 col-md-3 contact">
@@ -229,6 +235,7 @@ if ($packages->have_posts()) {
 </div>
 
 </section>
+
 
 </body>
 </html>
