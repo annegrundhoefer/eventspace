@@ -69,6 +69,24 @@ html .mast .btn:hover {
 html #featuresList {
   background-color: #d8d8d8;
 }
+html #featuresList h2 {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  width: 100%;
+}
+html #featuresList h2 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  padding: 10px;
+  font-size: 3em;
+}
+html #featuresList .image {
+  position: relative;
+  display: inline-table;
+}
 html #featuresList .banner {
   padding-top: 50px;
   padding-bottom: 50px;

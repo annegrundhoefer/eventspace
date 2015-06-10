@@ -25,7 +25,19 @@
 
 <section id="featuresList">
 	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
+		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+			<img src="http://d16wm5mxkuw2qn.cloudfront.net/images/20258.jpeg"/>
+			<h2><span>Downtown Views<br></span></h2>
+		</div>
+		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+			<img src="http://www.anonimfiles.com/wp-content/uploads/2014/05/wifi-png-300x300.png"/>
+			<h2><span>Fastest WiFi In Dallas!<br>+<br>Full A/V Setup; all at No Extra Charge</span></h2>
+		</div>
+		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+			<img src="http://dealseekingmom.com/files/2015/03/Starbucks-FREE-Drinks-300x300.jpg"/>
+			<h2><span>BYO<br>caterer<br>alcohol</span></h2>
+		</div>
+<!-- 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
 			<h2><?php the_field('left_title',59); ?></h2>
 			<div class="center">
 				<?php the_field('left_list',59); ?>
@@ -36,7 +48,7 @@
 			<div class="center">
 				<?php the_field('right_list',59); ?>
 			</div>
-		</div>
+		</div> -->
 	</div></section>
 
 
