@@ -31,8 +31,13 @@
 				<?php the_field('left_list',59); ?>
 			</div>
 		</div>
-	</div>
-</section>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
+			<h2><?php the_field('right_title',59); ?></h2>
+			<div class="center">
+				<?php the_field('right_list',59); ?>
+			</div>
+		</div>
+	</div></section>
 
 
 
