@@ -52,7 +52,7 @@ $args = array(
 $panels = new WP_Query($args);
 
 
-$count = 1;
+
 if ($panels->have_posts()) {
 	while ($panels->have_posts()) {
 		$panels->the_post(); 
@@ -60,21 +60,19 @@ if ($panels->have_posts()) {
 		$post_id = get_the_ID();
 		?>
 
-		<div class="container">
+
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icon">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icon text-center">
+				<h3><?php echo get_the_title(); ?></h3>
 					<img src="<?php echo $url ?>">
-				</div>
+			
 				
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 benefits">
-					<h4>No. <?php echo $count; ?></h4>
-					<h3><?php echo get_the_title(); ?></h3>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 benefits">
 					<?php echo get_field('content',$post_id); ?>
 					<a href="<?php echo get_the_permalink(); ?>"><div class="btn btn-primary"><?php echo get_field('cta_text',$post_id); ?></div></a>
-				</div>
+				</div> 
 			</div>
-		</div>
-		<?php $count++; ?>
+
 	<?php }
 }
 

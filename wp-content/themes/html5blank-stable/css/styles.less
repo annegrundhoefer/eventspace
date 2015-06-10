@@ -1,0 +1,422 @@
+/* New Stylesheet Title */
+
+@proxima : 'Proxima-Nova', sans-serif;
+
+@primary : #D8D8D8;
+@secondary : #FFF200;
+
+* {
+	font-family: @proxima;
+	
+}
+
+html {
+	body {
+	background: #fff;
+		.centered {
+    	float: none;
+    	margin: 0 auto;
+	}
+    	.row {
+			margin: 0px !important;
+			padding: 0px !important;
+		}
+	}
+	
+
+
+#mastHead {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	min-height: 800px;
+	background: url('../img/hero.png') no-repeat center center fixed;
+	background-size: cover;
+	--webkit-backrgound-size: cover;
+	position: relative;
+	}
+	img {
+		width: 100%;
+	
+	}
+
+
+
+.mast {
+	text-align: center;
+	padding-top: 200px;
+	h1 {
+		text-align: center;
+		color: @secondary;
+		font-size: 130px;
+		font-weight: 800;
+		letter-spacing: 6.5px;
+		padding-bottom: 30px;
+	}
+	h2 {
+		text-align: center;
+		color: #ffffff;
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+	h3 {
+		a {
+		text-align: center;
+		color: #ffffff;
+		font-size: 16px;
+		padding-bottom: 30px;
+		}
+
+	}
+	.btn {
+		border-radius: 0px;
+		text-transform: uppercase;
+		font-size: 16px;
+		background: rgba(255, 242, 0, 0.6);
+		border: none;
+		padding: 10px 30px;
+		&:hover {
+			background: rgba(0, 0, 0, 0.6);;
+			color: #fff;
+		}
+	}
+}
+
+#featuresList {
+	background-color: @primary;
+	.banner {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		h2 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 40px;
+		background: @secondary;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+		}
+	}
+	.center {
+		width:320px;
+    	margin: 0px auto;
+   		text-align:left;
+	ul {
+		margin: 50px auto;
+		line-height: 50px;
+			li {
+			font-size: 20px;
+			}
+		}
+	}
+}
+
+
+.audience {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	background: @secondary;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 80px;
+	}
+}
+.packages {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	padding-top: 20px;
+	margin: 0px;
+	background: @secondary;
+	padding-left: 80px;
+	}
+	p {
+		padding-top: 0px;
+		font-style: italic;
+		background: @secondary;
+		padding-left: 80px;
+		padding-bottom: 15px;
+
+	}
+}
+
+.icon {
+	img {
+	width: 50%;
+	margin: 100px auto;
+	}
+}
+
+.benefits {
+
+	h4 {
+		color: @primary;
+	}
+	.btn {
+		margin: 15px 0px;
+		border-radius: 0px;
+		border: none;
+		text-transform: uppercase;
+		font-size: 16px;
+		background: @secondary;
+		color: #000;
+		font-weight: 600;
+		font-size: 14px;
+		padding: 10px 10px;
+		&:hover {
+			background: @primary;
+		}
+	}
+}
+
+.single-package {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		position: relative;
+	img {
+		float: left;
+	}
+	.title {
+		position: absolute;
+		width: 100%;
+        display: block !important;
+        text-align: center;
+        top: 45%;
+  		left:0%;
+		h2 {
+			margin: 0px;
+			a {
+				color: #fff;
+				font-size: 40px;
+				display: block;
+				font-weight: 600;  		
+			}
+		}
+	}
+	.black {
+		position: absolute;
+		width: 100%;
+        display: block !important;
+        text-align: center;
+        top: 45%;
+  		left:0%;
+		h2 {
+			margin: 0;
+			a {
+			color: #000;
+			font-size: 40px;
+			display: block;
+			font-weight: 600;  
+			}
+		}
+	}
+}
+#clients {
+	padding: 50px;
+	img {
+	margin: 50px auto;
+	width: auto;
+
+	}
+}
+
+
+.map {
+	margin-bottom: 100px;
+	padding: 0px;
+}
+
+
+
+
+.contact {
+	padding-top: 50px;
+	h3 {
+		font-weight: 700;
+		font-size: 25px;
+	}
+	h4 {
+		a {
+			color: #000;
+			&:hover {
+				color: @secondary;
+				text-decoration: none;
+			}
+			
+
+		}
+	}
+}
+
+.touch {
+		padding-bottom: 50px;
+}
+
+.form-group {
+	.form-control {
+		background-color: transparent !important;
+		border-top: transparent;
+		border-right: transparent;
+		border-left: transparent;
+		border-bottom: 1px solid #000;
+		border-radius: 0;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+		box-shadow: none;
+	}
+	label {
+		height: 48px;
+		padding: 8px 1px;
+		font-size: 21px;
+	}
+}
+.btn-default {
+	color: #000;
+	font-size: 22px;
+	background: @secondary;
+	text-transform: uppercase;
+	border-radius: 0;
+	font-weight: 600;
+	padding: 10px 30px;
+}
+
+.border-form-control::-moz-placeholder { font-weight: 300; color: #000;}
+.border-form-control:-ms-input-placeholder { font-weight: 300; color: #000; }
+.border-form-control::-webkit-input-placeholder { font-weight: 300; color: #000;}
+
+textarea.border-form-control {
+	resize: none;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) { 
+	html {
+		body {
+			h2,p {
+				text-align: center;
+			}
+			.icon{
+				text-align: center;
+			}
+			.benefits {
+				text-align: center;
+				h4 {
+					font-size: 22px;
+				}
+				h3 {
+					font-size: 36px;
+					font-weight: 600;
+				}
+				p {
+					font-size: 20px;
+				}
+				.btn {
+					font-size: 20px;
+					padding: 10px 20px;
+				}
+			}
+			.audience {
+				h2 {
+					padding-right: 0px;
+				}
+			}
+			.packages {
+				h2,p {
+					padding-left: 0px;
+				}
+			}
+			.contact {
+				text-align: center;
+				padding: 0px;
+			}
+			.map {
+				margin-bottom: 30;
+			}
+			.touch {
+				padding-top: 75px;
+			}
+
+		}
+	}
+}
+
+
+@media all and (max-width: 767px) { 
+	html {
+		body {
+			h2,p {
+				text-align: center;
+			}
+			.icon{
+				text-align: center;
+			}
+			.benefits {
+				text-align: center;
+				h4 {
+					font-size: 18px;
+				}
+				h3 {
+					font-size: 25px;
+					font-weight: 600;
+				}
+				p {
+					font-size: 16px;
+				}
+				.btn {
+					font-size: 16px;
+					padding: 10px 20px;
+				}
+			}
+			.audience {
+				h2 {
+					padding-right: 0px;
+				}
+			}
+			.packages {
+				h2,p {
+					padding-left: 0px;
+				}
+			}
+			.contact {
+				text-align: center;
+				padding: 0px;
+			}
+			.map {
+				margin-bottom: 30;
+			}
+			.touch {
+				padding-top: 75px;
+			}
+			.mast {
+				h1 {
+					font-size: 55px;
+					letter-spacing: 0.5;
+					padding-bottom: 10px;
+				}
+				h2 {
+					font-size: 26px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
