@@ -35,7 +35,7 @@
 
 <section id="featuresList">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 banner text-right">
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 banner text-center">
 			<h2> Features and Services</h2>
 		</div>
 	</div>
