@@ -25,7 +25,12 @@
 
 <section id="featuresList">
 	<div class="row">
-		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 banner text-right">
+			<h2> Features and Services</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
 			<img src="http://d16wm5mxkuw2qn.cloudfront.net/images/20258.jpeg"/>
 			<h2><span>Downtown Views<br></span></h2>
 		</div>
@@ -49,10 +54,19 @@
 				<?php the_field('right_list',59); ?>
 			</div>
 		</div> -->
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
+			<a href="#"><div class="btn2 btn2-primary" id ="scroll">View all Features</div></a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
+			<div class="btn2 btn2-primary" id ="scroll">Book an Event</div>
+		</div>
+
 	</div></section>
 
 
-
+<section id="audiences">
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
 		<h2><?php the_field('first_ribbon',59); ?></h2>
@@ -82,8 +96,6 @@ if ($panels->have_posts()) {
 		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		$post_id = get_the_ID();
 		?>
-
-
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icon text-center">
 				<h3><?php echo get_the_title(); ?></h3>
@@ -101,15 +113,15 @@ if ($panels->have_posts()) {
 
 ?>
 
-
-<div class="row">
+</section>
+<!-- <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-offset-5 col-md-7 col-md-offset-5 col-lg-7 packages text-left">
 		<h2><?php the_field('second_ribbon',59); ?></h2>
 		<p><?php the_field('second_ribbon_subhead',59); ?></p>
 	</div>
 </div>
-<div class="row">
-
+<div class="row"> -->
+<!-- 
 <?php 
 
 /*********************************************/
@@ -138,17 +150,17 @@ if ($packages->have_posts()) {
 
 	<?php }
 }
-?>
+?> -->
 
 
-<div class="row">
+<!-- <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
 		<h2><?php the_field('third_ribbon',59); ?></h2>
 	</div>
-</div>
+</div> -->
 
 
-<div class="row">
+<!-- <div class="row">
 	<?php 
 
 	/*********************************************/
@@ -179,8 +191,7 @@ if ($packages->have_posts()) {
 
 		}
 	?>
-</div>
-
+</div> -->
 <section id="clients">
 	<div class="container">
 		<div class="row">
@@ -223,7 +234,6 @@ if ($packages->have_posts()) {
 		</div>
 	</div>
 </section>
-
 <section id="featuresList">
 <div class="row">
 	<div class="col-sm-12 col-md-8 map" id = "contact">

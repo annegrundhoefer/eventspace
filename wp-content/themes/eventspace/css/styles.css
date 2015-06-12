@@ -85,7 +85,7 @@ html #featuresList h2 span {
 }
 html #featuresList .image {
   position: relative;
-  display: inline-table;
+  display: inline;
 }
 html #featuresList .banner {
   padding-top: 50px;
@@ -101,6 +101,7 @@ html #featuresList .banner h2 {
   padding-bottom: 20px;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
 }
 html #featuresList .center {
   width: 320px;
@@ -113,6 +114,9 @@ html #featuresList .center ul {
 }
 html #featuresList .center ul li {
   font-size: 20px;
+}
+html #featuresList a {
+  text-decoration: none;
 }
 html .audience {
   padding-top: 50px;
@@ -169,6 +173,20 @@ html .benefits .btn {
 html .benefits .btn:hover {
   background: #d8d8d8;
 }
+html .benefits .btn2 {
+  margin: 15px 0px;
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  background: #fff200;
+  color: #000;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+html .benefits .btn2:hover {
+  background: purple;
+}
 html .single-package {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -215,6 +233,7 @@ html .single-package .black h2 a {
 }
 html #clients {
   padding: 50px;
+  color: #d8d8d8;
 }
 html #clients img {
   margin: 50px auto;
