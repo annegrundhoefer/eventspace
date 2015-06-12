@@ -152,8 +152,11 @@ html .packages p {
   padding-bottom: 15px;
 }
 html .icon img {
-  width: 50%;
+  width: 40%;
   margin: 100px auto;
+}
+html .icon h3 {
+  font-size: 80px;
 }
 html .benefits h4 {
   color: #d8d8d8;
