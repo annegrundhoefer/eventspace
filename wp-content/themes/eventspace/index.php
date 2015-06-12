@@ -6,7 +6,17 @@
   $(document).ready(function() {
     $("#scroll").click(function() {
       $('html, body').animate({
-        scrollTop: $("#contact").offset().top
+        scrollTop: $(".touch").offset().top
+      }, 1000);
+   });
+ });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#scroll2").click(function() {
+      $('html, body').animate({
+        scrollTop: $(".touch").offset().top
       }, 1000);
    });
  });
@@ -57,10 +67,10 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
-			<a href="#"><div class="btn2 btn2-primary" id ="scroll">View all Features</div></a>
+			<a href="#"><div class="btn2 btn2-primary">View all Features</div></a>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
-			<div class="btn2 btn2-primary" id ="scroll">Book an Event</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits" id="scroll">
+			<div class="btn2 btn2-primary" id ="scroll2">Book an Event</div>
 		</div>
 
 	</div></section>
