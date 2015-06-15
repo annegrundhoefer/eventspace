@@ -22,6 +22,19 @@
  });
 </script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.featureImages').fadeTo(10, 0.8);
+		$(".featureImages").hover(
+		function(){
+			$(this).fadeTo(1000, 0.9);
+		}, function() {
+			$(this).fadeTo(1000, 1)
+		});
+
+	});
+</script>
+
 <section id="mastHead"> 
 	<div class="mast">
 		<h3><?php the_field('homepage_address',59); ?></h3>
@@ -35,20 +48,20 @@
 
 <section id="featuresList">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 banner text-center">
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 banner text-center">
 			<h2> Features and Services</h2>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="http://d16wm5mxkuw2qn.cloudfront.net/images/20258.jpeg"/>
-			<h2><span>Downtown Views<br></span></h2>
+			<h2><span id = "dtViewsText">Downtown Views<br></span></h2>
 		</div>
-		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="http://www.anonimfiles.com/wp-content/uploads/2014/05/wifi-png-300x300.png"/>
-			<h2><span>Fastest WiFi In Dallas!<br>+<br>Full A/V Setup; all at No Extra Charge</span></h2>
+			<h2><span>Fastest WiFi In Dallas!</span></h2>
 		</div>
-		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image">
+		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="http://dealseekingmom.com/files/2015/03/Starbucks-FREE-Drinks-300x300.jpg"/>
 			<h2><span>BYO<br>caterer<br>alcohol</span></h2>
 		</div>
@@ -70,7 +83,7 @@
 			<a href="#"><div class="btn2 btn2-primary">View all Features</div></a>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits" id="scroll">
-			<div class="btn2 btn2-primary" id ="scroll2">Book an Event</div>
+			<div class="btn2 btn2-primary text-center" id ="scroll2">Book an Event</div>
 		</div>
 
 	</div></section>
@@ -78,7 +91,7 @@
 
 <section id="audiences">
 <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 audience text-right">
+	<div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 audience text-right">
 		<h2><?php the_field('first_ribbon',59); ?></h2>
 	</div>
 </div>
@@ -124,6 +137,10 @@ if ($panels->have_posts()) {
 ?>
 
 </section>
+
+<!-- SnapWidget -->
+<!-- <iframe src="http://snapwidget.com/sc/?u=Zm9ydF93b3JrfGlufDQwMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=150615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1750px; height:400px"></iframe> -->
+<iframe src="http://snapwidget.com/sc/?u=Zm9ydF93b3JrfGlufDQwMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=150615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:350px"></iframe>
 <!-- <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-offset-5 col-md-7 col-md-offset-5 col-lg-7 packages text-left">
 		<h2><?php the_field('second_ribbon',59); ?></h2>

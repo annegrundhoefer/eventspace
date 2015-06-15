@@ -75,17 +75,22 @@ html #featuresList h2 {
   text-align: center;
   top: 20%;
   width: 100%;
+  height: auto;
 }
 html #featuresList h2 span {
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: -1px;
   padding: 10px;
-  font-size: 3em;
+  font-size: 2em;
+  height: auto;
+  max-width: 100%;
 }
 html #featuresList .image {
   position: relative;
   display: inline;
+  max-width: 100%;
+  height: auto;
 }
 html #featuresList .banner {
   padding-top: 50px;
@@ -95,7 +100,7 @@ html #featuresList .banner h2 {
   text-align: right;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 3em;
   background: #fff200;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -113,7 +118,7 @@ html #featuresList .center ul {
   line-height: 50px;
 }
 html #featuresList .center ul li {
-  font-size: 20px;
+  font-size: 2em;
 }
 html #featuresList a {
   text-decoration: none;
@@ -125,7 +130,7 @@ html .audience {
 html .audience h2 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 3em;
   background: #fff200;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -170,7 +175,7 @@ html .benefits .btn {
   background: #fff200;
   color: #000;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 2em;
   padding: 10px 10px;
 }
 html .benefits .btn:hover {
@@ -179,7 +184,7 @@ html .benefits .btn:hover {
 html .benefits .btn2 {
   overflow: auto;
   margin: 15px 0px;
-  margin-left: 80px;
+  margin-left: 120px;
   border-radius: 0px;
   border: none;
   text-transform: uppercase;
@@ -188,7 +193,6 @@ html .benefits .btn2 {
   color: #000;
   font-weight: 600;
   padding: 10px 10px;
-  padding-left: 30px;
   width: 70%;
 }
 html .benefits .btn2:hover {
