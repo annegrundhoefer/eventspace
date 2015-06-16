@@ -49,21 +49,20 @@
 <section id="featuresList">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 banner text-center">
-			<h2> Features and Services</h2>
+			<h2> Features & Services</h2>
 		</div>
 	</div>
-	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="http://d16wm5mxkuw2qn.cloudfront.net/images/20258.jpeg"/>
-			<h2><span id = "dtViewsText">Downtown Views<br></span></h2>
+			<h2><span id = "dtViewsText">Beautiful views of <br>Downtown Dallas<br></span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="http://www.anonimfiles.com/wp-content/uploads/2014/05/wifi-png-300x300.png"/>
-			<h2><span>Fastest WiFi In Dallas!</span></h2>
+			<img src="/eventspace/wp-content/themes/eventspace/img/work.png"/>
+			<h2><span>Fastest WiFi in Dallas<br>+<br> Full A/V setup; all at no extra charge!</span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="http://dealseekingmom.com/files/2015/03/Starbucks-FREE-Drinks-300x300.jpg"/>
-			<h2><span>BYO<br>caterer<br>alcohol</span></h2>
+			<img src="/eventspace/wp-content/themes/eventspace/img/artimage.png"/>
+			<h2><span>BYO caterer, alcohol, DJ etc. <br>(or use ours!)</span></h2>
 		</div>
 <!-- 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
 			<h2><?php the_field('left_title',59); ?></h2>
@@ -77,10 +76,9 @@
 				<?php the_field('right_list',59); ?>
 			</div>
 		</div> -->
-	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
-			<a href="#"><div class="btn2 btn2-primary">View all Features</div></a>
+			<a href="#"><div class="btn3 btn3-primary">View all Features</div></a>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits" id="scroll">
 			<div class="btn2 btn2-primary text-center" id ="scroll2">Book an Event</div>
@@ -121,11 +119,11 @@ if ($panels->have_posts()) {
 		?>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icon text-center">
-				<h3><?php echo get_the_title(); ?></h3>
 					<img src="<?php echo $url ?>">
 			
 				
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 benefits">
+				<h3><?php echo get_the_title(); ?></h3>
 					<?php echo get_field('content',$post_id); ?>
 					<a href="<?php echo get_the_permalink(); ?>"><div class="btn btn-primary"><?php echo get_field('cta_text',$post_id); ?></div></a>
 				</div> 
@@ -140,7 +138,7 @@ if ($panels->have_posts()) {
 
 <!-- SnapWidget -->
 <!-- <iframe src="http://snapwidget.com/sc/?u=Zm9ydF93b3JrfGlufDQwMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=150615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1750px; height:400px"></iframe> -->
-<iframe src="http://snapwidget.com/sc/?u=Zm9ydF93b3JrfGlufDQwMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=150615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:350px"></iframe>
+<iframe src="http://snapwidget.com/sc/?u=Zm9ydF93b3JrfGlufDQwMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=150615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:400px"></iframe>
 <!-- <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-offset-5 col-md-7 col-md-offset-5 col-lg-7 packages text-left">
 		<h2><?php the_field('second_ribbon',59); ?></h2>

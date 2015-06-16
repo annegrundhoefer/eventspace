@@ -42,7 +42,6 @@ html {
 	}
 
 
-
 .mast {
 	text-align: center;
 	padding-top: 200px;
@@ -83,34 +82,45 @@ html {
 	}
 }
 
+#audiences {
+	padding-bottom: 50px;
+}
+
 #featuresList {
+	padding: 0px 0px;
 	background-color: @primary;
 	h2 {
-  		left: 0;
+  		left: 0%;
   		position: absolute;
   		text-align: center;
-  		top: 20%;
+  		top: 35%;
   		width: 100%;
-  		height: auto;
+  		display: block !important;
+  		margin: 0px;
    		span {
-			color: white;
-			font: bold 24px/45px Helvetica, Sans-Serif;
-			letter-spacing: -1px;
-			padding: 10px;
-			font-size: 2em;
-			height: auto;
-			max-width: 100%;
+				color: #fff;
+				font-size: 40px;
+				display: block;
+				font-weight: 600;
    		}
 	}
+
 	.image {
+		padding: 0px 0px;
 		position: relative;
 		display: inline;
 		max-width: 100%;
 		height: auto;
+		background: #000;
+		img {
+			max-height: 400px;
+			opacity: 0.5;
+		}
 	}
 	.banner {
 		padding-top: 50px;
 		padding-bottom: 50px;
+		padding-left: 0px;
 		h2 {
 		text-align: right;
 		text-transform: uppercase;
@@ -146,6 +156,7 @@ html {
 .audience {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 0px;
 	h2 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -181,22 +192,23 @@ html {
 
 .icon {
 	img {
-	width: 40%;
-	margin: 100px auto;
+	width: 20%;
+	margin: 40px auto;
 	}
 
 	h3 {
-		font-size: 80px;
+		font-size: 45px;
 	}
 }
 
 .benefits {
+	margin: 0px auto;
 
 	h4 {
 		color: @primary;
 	}
 	.btn {
-		margin: 15px 0px;
+		margin: 15px 100px;
 		border-radius: 0px;
 		border: none;
 		text-transform: uppercase;
@@ -204,7 +216,6 @@ html {
 		background: @secondary;
 		color: #000;
 		font-weight: 600;
-		font-size: 2em;
 		padding: 10px 10px;
 		&:hover {
 			background: @primary;
@@ -212,22 +223,44 @@ html {
 
 	}
 
-	.btn2 {
+		.btn3 {
+		text-align: center;
+		float: right;
 		overflow: auto;
-		margin: 15px 0px;
-		margin-left: 120px;
+		margin: 50px;
+		margin-left: 0px;
 		border-radius: 0px;
 		border: none;
 		text-transform: uppercase;
-		font-size: 30px;
+		font-size: 24px;
 		background: @secondary;
 		color: #000;
 		font-weight: 600;
 		padding: 10px 10px;
-		width: 70%;
+		width: 40%;
 		&:hover {
-			background: purple;
-			cursor: pointer;
+			background: #fff;
+		}
+
+	}
+
+	.btn2 {
+		text-align: center;
+		float: left;
+		overflow: auto;
+		margin: 50px;
+		margin-left: 0px;
+		border-radius: 0px;
+		border: none;
+		text-transform: uppercase;
+		font-size: 24px;
+		background: @secondary;
+		color: #000;
+		font-weight: 600;
+		padding: 10px 10px;
+		width: 40%;
+		&:hover {
+			background: #fff;
 		}
 
 	}
