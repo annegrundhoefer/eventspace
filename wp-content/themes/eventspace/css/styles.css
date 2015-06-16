@@ -77,7 +77,7 @@ html #featuresList h2 {
   left: 0%;
   position: absolute;
   text-align: center;
-  top: 35%;
+  top: 30%;
   width: 100%;
   display: block !important;
   margin: 0px;
@@ -97,7 +97,7 @@ html #featuresList .image {
   background: #000;
 }
 html #featuresList .image img {
-  max-height: 400px;
+  max-height: 350px;
   opacity: 0.5;
 }
 html #featuresList .banner {
@@ -379,8 +379,15 @@ html textarea.border-form-control {
   html body .icon {
     text-align: center;
   }
+  html body .mast h1 {
+    font-size: 100px;
+  }
+  html body .mast h3 a {
+    font-size: 24px;
+  }
   html body .benefits {
     text-align: center;
+    float: none;
   }
   html body .benefits h4 {
     font-size: 22px;
@@ -395,6 +402,19 @@ html textarea.border-form-control {
   html body .benefits .btn {
     font-size: 20px;
     padding: 10px 20px;
+  }
+  html body .benefits .btn2 {
+    margin: 50px 50px 50px 50px;
+  }
+  html body #featuresList .banner {
+    padding-right: 0px !important;
+  }
+  html body #featuresList .banner h2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+  }
+  html body .audience {
+    padding-right: 0px !important;
   }
   html body .audience h2 {
     padding-right: 0px;
@@ -424,6 +444,17 @@ html textarea.border-form-control {
   }
   html body .benefits {
     text-align: center;
+    padding: 0px 10px !important;
+  }
+  html body .benefits .btn3 {
+    float: none;
+    width: 100%;
+    margin: 25px 0px;
+  }
+  html body .benefits .btn2 {
+    float: none;
+    width: 100%;
+    margin: 25px 0px;
   }
   html body .benefits h4 {
     font-size: 18px;
@@ -438,6 +469,25 @@ html textarea.border-form-control {
   html body .benefits .btn {
     font-size: 16px;
     padding: 10px 20px;
+    margin: 0px;
+  }
+  html body #featuresList h2 {
+    top: 30%;
+  }
+  html body #featuresList h2 span {
+    font-size: 28px;
+    padding: 0px 20px;
+  }
+  html body #featuresList .banner {
+    width: 100%;
+    padding-right: 0px;
+  }
+  html body #featuresList .banner h2 {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  html body .audience {
+    padding-right: 0px;
   }
   html body .audience h2 {
     padding-right: 0px;
