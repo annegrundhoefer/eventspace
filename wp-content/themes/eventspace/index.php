@@ -80,7 +80,7 @@
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits">
 			<a href="#"><div class="btn3 btn3-primary">View all Features</div></a>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits" id="scroll">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 banner text-center benefits" id="scroll" style = "cursor: pointer">
 			<div class="btn2 btn2-primary text-center" id ="scroll2">Book an Event</div>
 		</div>
 
