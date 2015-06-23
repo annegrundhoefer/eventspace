@@ -52,18 +52,20 @@
 			<h2> Features & Services</h2>
 		</div>
 	</div>
+	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="<?php bloginfo('template_url'); ?>/img/downtown.jpeg"/>
-			<h2><span id = "dtViewsText">Beautiful views of <br>Downtown Dallas<br></span></h2>
+			<img src="<?php bloginfo('template_url'); ?>/img/downtown2.jpeg"/>
+			<h2><span>Beautiful views of <br>Downtown Dallas<br></span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="<?php bloginfo('template_url'); ?>/img/work.png"/>
-			<h2><span>Fastest WiFi in Dallas<br>+<br> Full A/V setup; all at no extra charge!</span></h2>
+			<h2><span>Fastest WiFi in Dallas</span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
 			<img src="<?php bloginfo('template_url'); ?>/img/artimage.png"/>
 			<h2><span>BYO caterer, alcohol, DJ etc. <br>(or use ours!)</span></h2>
 		</div>
+	</div>
 <!-- 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
 			<h2><?php the_field('left_title',59); ?></h2>
 			<div class="center">
