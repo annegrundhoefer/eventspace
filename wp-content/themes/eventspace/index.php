@@ -53,15 +53,15 @@
 		</div>
 	</div>
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="http://d16wm5mxkuw2qn.cloudfront.net/images/20258.jpeg"/>
+			<img src="<?php bloginfo('template_url'); ?>/img/downtown.jpeg"/>
 			<h2><span id = "dtViewsText">Beautiful views of <br>Downtown Dallas<br></span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="/eventspace/wp-content/themes/eventspace/img/work.png"/>
+			<img src="<?php bloginfo('template_url'); ?>/img/work.png"/>
 			<h2><span>Fastest WiFi in Dallas<br>+<br> Full A/V setup; all at no extra charge!</span></h2>
 		</div>
 		<div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4 image featureImages">
-			<img src="/eventspace/wp-content/themes/eventspace/img/artimage.png"/>
+			<img src="<?php bloginfo('template_url'); ?>/img/artimage.png"/>
 			<h2><span>BYO caterer, alcohol, DJ etc. <br>(or use ours!)</span></h2>
 		</div>
 <!-- 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 banner text-center">
